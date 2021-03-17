@@ -5,10 +5,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student</title>
+    <title>Faculty</title>
 </head>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Student</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,39 +28,38 @@
     </div>
   </div>
 </nav>
-
 <body>
-
 <div class="container">
     <div class="row">
-        <div class="col col-12 col-sm-3 col-md-3 col-md-6 col-lg-6 col-xl-12 col-xxl-12">
-        <center>
-        <table class="table table-borderless">
+        <div class="col col-12 col-sm-3 col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+        <table class="table">
         <tr>
             <td>Name</td>
             <td><input type="text" class="form-control"></td>
         </tr>
         <tr>
-            <td>ROLL NO</td>
+            <td>Department</td>
             <td><input type="text" class="form-control"></td>
         </tr>
         <tr>
-            <td>COLLEGE NAME</td>
+            <td>Address</td>
             <td><input type="text" class="form-control"></td>
         </tr>
         <tr>
-            <td>ADMISSION NO</td>
+            <td>Education Qualification</td>
+            <td><input type="text" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>College</td>
             <td><input type="text" class="form-control"></td>
         </tr>
         <tr>
             <td></td>
-            <td><button class="btn btn-warning">SUBMIT</button></td>
+            <td><button class="btn btn-success">SUBMIT</button></td>
         </tr>
         </table>
-        </center>
         </div>
     </div>
-</div>
-
+</div>  
 </body>
 </html>
